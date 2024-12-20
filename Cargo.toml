@@ -1,0 +1,11 @@
+[package]
+name = "gredl_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+dirs = "5.0"
+percent-encoding = "2.3"
+chrono = "0.4"
+humansize = "2.1"
